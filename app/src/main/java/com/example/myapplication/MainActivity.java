@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
+    public static void foo(void) {
+        .. .. 
+    }
+
     @Override
     public void onClick(View v) {
         try{
