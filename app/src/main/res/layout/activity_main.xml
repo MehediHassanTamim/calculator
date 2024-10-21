@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    
+    <EditText android:id="@+id/edittext1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Enter a mnumber"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#111010"
+        android:textCursorDrawable="@null"/>
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:hint="Enter a mnumber"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#111010"
+        android:textCursorDrawable="@null"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sumbuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sum"
+            />
+
+        <Button
+            android:id="@+id/subbuttonid"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>
