@@ -52,8 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String num1 =e1.getText().toString();
             String num2 =e2.getText().toString();
 
-            double a = Double.parseDouble(num1);
-            double b = Double.parseDouble(num2);
+            
 
             if(v.getId() == R.id.sumbuttonid)
             {
